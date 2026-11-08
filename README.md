@@ -16,6 +16,8 @@
 
 InHouseTX turns payment activity into understandable financial context. It combines a PayPal **Sandbox** checkout workflow with transaction categorisation, model explanations, currency-aware analytics, unusual-spending signals, and grounded financial insights.
 
+> **Live deployment:** [Open InHouseTX](https://inhouse-tx-mkmu.onrender.com). The app is hosted on Render in Sandbox-only mode. PayPal checkout requires `PAYPAL_CLIENT_ID` and `PAYPAL_CLIENT_SECRET` to be configured in the Render service environment; checkout is not yet verified on the deployed app.
+
 > **Prototype boundary:** Sandbox only; no live payments or unrestricted PayPal account-history access. A payment is recorded as PayPal activity only after server-side provider verification. CSV imports and seeded examples are labelled separately. Complete buyer approval/capture with Sandbox credentials before claiming it as live-tested.
 
 ## At a glance
@@ -120,8 +122,8 @@ The root is intentionally limited to project metadata, configuration templates a
 ## Run locally
 
 ### Prerequisites
-- Python 3.10 or newer
-- PayPal Developer Sandbox credentials only if testing checkout
+- Python 3.10 or newer.
+- PayPal Developer Sandbox credentials only if testing checkout.
 
 ### 1. Clone and install
 
