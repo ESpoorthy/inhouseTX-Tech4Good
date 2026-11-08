@@ -13,6 +13,7 @@ from sklearn.linear_model import LogisticRegression
 ROOT = Path(__file__).resolve().parents[1]
 ARTIFACT = ROOT / "model" / "model.bin"
 SYNTHETIC = ROOT / "data" / "synthetic_training.csv"
+TAXONOMY = ROOT / "data" / "taxonomy.json"
 
 
 class Categorizer:
@@ -20,7 +21,7 @@ class Categorizer:
     def __init__(self, threshold=0.55):
         self.threshold = threshold
         self.model_id = "inhouse-tx-logreg-v1"
-        with (ROOT / "taxonomy.json").open(encoding="utf-8") as taxonomy_file:
+        with TAXONOMY.open(encoding="utf-8") as taxonomy_file:
             self.taxonomy = json.load(taxonomy_file)
         self.categories = list(self.taxonomy.get("categories", {}).keys())
         self.vectorizer = TfidfVectorizer(ngram_range=(1, 2), min_df=1, sublinear_tf=True)
@@ -49,7 +50,6 @@ class Categorizer:
         probs = self.model.predict_proba(vec)[0]
         idx = int(np.argmax(probs))
         category, confidence = str(self.model.classes_[idx]), float(probs[idx])
-        # For this linear classifier, local feature x coefficient contributions are exact.
         contributions = vec.multiply(self.model.coef_[idx]).toarray()[0]
         names = self.vectorizer.get_feature_names_out()
         top = sorted(((names[i], float(contributions[i])) for i in np.argsort(contributions)[::-1]
