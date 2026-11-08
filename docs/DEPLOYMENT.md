@@ -38,3 +38,11 @@ The frontend is dependency-free static HTML/CSS/JS served by Flask. The PayPal J
 - Confirm that the hosting platform permits outbound PayPal calls and inbound PayPal webhooks.
 
 No live deployment or actual Sandbox transaction is claimed by this documentation.
+
+## Render deployment
+
+`render.yaml` defines the web service in Singapore on Render's free plan. The web service deploys the repository's `main` branch with Gunicorn and uses `/api/ready` as its readiness check. It references the existing `inhouse-tx-postgres` database through Render's database connection reference, so the database URL is not stored in this repository. Keep the Blueprint file on the deployment branch; do not merge it into `main` as part of deployment setup.
+
+The Blueprint generates `SECRET_KEY` in Render. It intentionally leaves PayPal credentials empty: set the rotated Sandbox values for `PAYPAL_CLIENT_ID` and `PAYPAL_CLIENT_SECRET` in the Render service's Environment page after the service URL is available. Keep `PAYPAL_MODE=sandbox`. `PAYPAL_WEBHOOK_ID` can remain empty until webhook verification is configured; checkout and capture do not require it. Set `FRONTEND_ORIGIN` to the service's exact HTTPS origin once Render assigns the URL. The application serves its frontend and API from the same origin.
+
+The free web service may spin down when idle, and the free Postgres instance expires after 30 days. These free-tier resources are suitable for evaluation, not durable production storage. Before a public judging demo, confirm the database is active and test readiness, account registration, Sandbox OAuth/order creation, and capture end to end. No PayPal capture or deployed health result is implied by the Blueprint alone.
