@@ -1,6 +1,6 @@
 from pathlib import Path
 import subprocess, requests, json
-ROOT=Path(__file__).resolve().parents[1]
+ROOT=Path(__file__).resolve().parents[2]
 seed=subprocess.run(['python3','scripts/seed_demo.py','--email','visual-qa@inhouse-tx.local'],cwd=ROOT,text=True,capture_output=True,check=True)
 pw=next(x.split(': ',1)[1] for x in seed.stdout.splitlines() if x.startswith('One-time password:'))
 s=requests.Session(); base='http://127.0.0.1:3001'; out=[]

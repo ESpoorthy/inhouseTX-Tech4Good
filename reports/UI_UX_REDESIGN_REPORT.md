@@ -26,7 +26,7 @@ Other views confirmed rendered in Chrome by inspecting their live DOM and taking
 ## Functional checks observed in Chrome
 
 - Navigation between Overview, Transactions, Analytics, Anomaly centre, AI insights, PayPal checkout, and Settings rendered the expected view.
-- Transactions accepted the explicitly synthetic CSV QA fixture at `work/visual_qa_transactions.csv`; the UI reported “Imported 8 rows as CSV data.” The rows were labelled CSV imported and not PayPal-verified.
+- Transactions accepted the explicitly synthetic CSV QA fixture at `tests/fixtures/visual_qa_transactions.csv`; the UI reported “Imported 8 rows as CSV data.” The rows were labelled CSV imported and not PayPal-verified.
 - Transaction list showed categories, review markers, dates, currency-formatted amounts, source labels, and category correction controls. Direct detail/feedback submission was not completed in this browser pass.
 - Analytics showed separate EUR and USD rollups, daily bars, category/merchant totals, budget forms, and largest payments. The USD test set totaled $2,633.64; EUR remained €29.95.
 - Dashboard displayed the synthetic transaction totals and chart/category/table content after import.

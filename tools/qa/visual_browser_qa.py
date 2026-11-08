@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait, Select
 from selenium.webdriver.support import expected_conditions as EC
 
-ROOT=Path(__file__).resolve().parents[1]
+ROOT=Path(__file__).resolve().parents[2]
 OUT=ROOT/'reports'/'screenshots'; OUT.mkdir(parents=True,exist_ok=True)
 seed=subprocess.run(['python3','scripts/seed_demo.py','--email','visual-qa@inhouse-tx.local'],cwd=ROOT,text=True,capture_output=True,check=True)
 password=next(x.split(': ',1)[1] for x in seed.stdout.splitlines() if x.startswith('One-time password:'))
