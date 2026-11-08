@@ -15,6 +15,7 @@ frontend/.tsbuildinfo
 
 # Local-only scratch workspace, temporary drivers and QA exports
 /work/
+/pytest-of-*/
 reports/screenshots/.pytest_tmp/
 .DS_Store
 
