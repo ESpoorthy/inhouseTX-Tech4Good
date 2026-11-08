@@ -98,11 +98,12 @@ See [verified technology stack](docs/TECHNOLOGY_STACK.md) and [requirements.txt]
 ├── api/                         Flask routes, services and data models
 ├── frontend/                    Same-origin browser interface and styles
 ├── model/                       Current and preserved legacy ML workflows
-├── data/                        Clearly synthetic model-training examples
+├── data/                        Synthetic training data and archived legacy inputs
 ├── scripts/                     Migration, demo seeding and model operations
 ├── migrations/                  Database schema setup
 ├── tests/                       Automated tests and synthetic fixtures
-├── utils/                       Preserved original helper utilities
+├── utils/                       Shared helpers and taxonomy loader
+├── main.py                      Local model smoke-test entry point
 ├── docs/
 │   ├── assets/original-diagrams/ Original project diagrams
 │   ├── original-project/         GHCI 2025 PDFs and archive notes
@@ -114,7 +115,7 @@ See [verified technology stack](docs/TECHNOLOGY_STACK.md) and [requirements.txt]
 └── submission/                   Devpost and demo-video materials
 ```
 
-Runtime modules remain in stable locations. Original assets are preserved under [docs/original-project](docs/original-project/README.md); optional development utilities are under [tools](tools/README.md). See [repository organisation](docs/FILE_ORGANISATION.md).
+The root is intentionally limited to project metadata, configuration templates and the small CLI entry point. The original seven-row merchant dataset, taxonomy and legacy feedback placeholder are retained under `data/`; only `synthetic_training.csv` feeds the current model. Original assets are preserved under [docs/original-project](docs/original-project/README.md); optional development utilities are under [tools](tools/README.md). See [repository organisation](docs/FILE_ORGANISATION.md).
 
 ## Run locally
 
