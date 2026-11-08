@@ -1,0 +1,82 @@
+[
+  {
+    "name": "GET landing",
+    "passed": true,
+    "detail": "200"
+  },
+  {
+    "name": "Health endpoint",
+    "passed": true,
+    "detail": "200"
+  },
+  {
+    "name": "Unauthenticated session",
+    "passed": true,
+    "detail": "{'authenticated': False}"
+  },
+  {
+    "name": "Login",
+    "passed": true,
+    "detail": "200"
+  },
+  {
+    "name": "integrations",
+    "passed": true,
+    "detail": "200; {\"insights\":{\"mode\":\"deterministic\",\"provider\":\"deterministic\"},\"paypal\":{\"checkout_available\":false,\"client_id\":null,\"configured\":false,\"message\":\"Add Sandbox "
+  },
+  {
+    "name": "transactions",
+    "passed": true,
+    "detail": "200; {\"items\":[{\"amount\":\"100.00\",\"category\":\"Food & Dining\",\"classified_at\":\"2026-11-02T10:37:55.458057\",\"confidence\":0.45444133550590976,\"created_at\":\"2026-11-02T1"
+  },
+  {
+    "name": "analytics",
+    "passed": true,
+    "detail": "200; {\"currencies\":[{\"average\":\"49.66\",\"categories\":[{\"amount\":\"274.99\",\"budget\":null,\"budget_utilization\":null,\"category\":\"Shopping\",\"share\":0.39550403428785114},{\""
+  },
+  {
+    "name": "anomalies",
+    "passed": true,
+    "detail": "200; {\"items\":[{\"amount\":\"100.00\",\"category\":\"Food & Dining\",\"currency\":\"USD\",\"explanation\":\"100.00 USD is more than 2.5\\u00d7 the previous Food & Dining median (10."
+  },
+  {
+    "name": "budgets",
+    "passed": true,
+    "detail": "200; {\"items\":[]}\n"
+  },
+  {
+    "name": "Seeded fixtures persisted",
+    "passed": true,
+    "detail": "count=14"
+  },
+  {
+    "name": "Transaction detail",
+    "passed": true,
+    "detail": "200"
+  },
+  {
+    "name": "Feedback write",
+    "passed": true,
+    "detail": "200;{\"category\":\"Shopping\",\"status\":\"saved\"}\n"
+  },
+  {
+    "name": "Analytics filter",
+    "passed": true,
+    "detail": "200"
+  },
+  {
+    "name": "Deterministic AI insight",
+    "passed": true,
+    "detail": "200;{\"answer\":\"For the recorded period (2026-11-01 through 2026-11-02), completed or imported spending is 142.15 USD across 2 records (average 71.08 USD). The largest category is Shopping at 100.00 USD.\",\"facts\":{\"currencies"
+  },
+  {
+    "name": "Categorisation inference",
+    "passed": true,
+    "detail": "200;{\"category\":\"Food & Dining\",\"classified_at\":\"2026-11-02T10:37:56.189541+00:00\",\"confidence\":0.4018504072874384,\"explanation\":{\"features\":[{\"contribution\":0.9266,\"feature\":\"coffee\"}],\"method\":\"linear_tfidf_contributions\","
+  },
+  {
+    "name": "PayPal checkout fails honestly when unconfigured",
+    "passed": true,
+    "detail": "503;{\"error\":{\"code\":\"paypal_not_configured\",\"message\":\"Configure PayPal Sandbox client credentials first.\"}}\n"
+  }
+]

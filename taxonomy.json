@@ -3,6 +3,9 @@
     "Food & Dining": ["starbucks", "mcdonalds", "dominos"],
     "Fuel": ["shell", "bharat petroleum", "hp petrol"],
     "Shopping": ["amazon", "flipkart", "myntra"],
-    "Groceries": ["big bazaar", "dmart", "reliance fresh"]
+    "Groceries": ["big bazaar", "dmart", "reliance fresh", "whole foods", "trader joes", "walmart grocery"],
+    "Shopping": ["amazon", "flipkart", "myntra", "best buy", "ikea", "nike"],
+    "Transport": ["uber", "lyft", "metro transit", "amtrak", "city bus"],
+    "Utilities": ["electric utility", "water utility", "internet service", "mobile phone", "gas utility"]
   }
 }

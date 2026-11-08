@@ -1,0 +1,35 @@
+{
+  "browser": "Google Chrome via Codex browser extension",
+  "app_url": "http://127.0.0.1:3001/",
+  "browser_session_started": true,
+  "date": "2026-11-08",
+  "screens_inspected": [
+    "landing",
+    "dashboard empty",
+    "dashboard synthetic data",
+    "transactions",
+    "analytics",
+    "anomaly centre",
+    "AI insights",
+    "PayPal checkout",
+    "settings"
+  ],
+  "screenshots": [
+    "desktop_dashboard_empty.png",
+    "desktop_dashboard_synthetic.png",
+    "desktop_transactions_synthetic.png",
+    "desktop_analytics_synthetic.png",
+    "desktop_anomaly_centre.png",
+    "desktop_settings.png"
+  ],
+  "responsive_viewports_inspected": ["desktop window only"],
+  "console_errors": ["Initial GET /favicon.ico returned 404; inline SVG favicon added; not rechecked after browser provider became unavailable."],
+  "failed_requests": "Full Network panel review not completed.",
+  "visual_qa_passed": false,
+  "limitations": [
+    "Tablet/mobile testing and direct Figma-to-browser comparison remain outstanding.",
+    "The browser provider subsequently reported Local browser use is disabled in Work settings.",
+    "PayPal Sandbox approval/capture requires local Sandbox app credentials.",
+    "The anomaly fixture did not have sufficient per-category history to trigger an alert."
+  ]
+}

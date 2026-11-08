@@ -1,0 +1,241 @@
+description,category,source
+Starbucks Coffee,Food & Dining,synthetic_training
+McDonalds Restaurant Online,Food & Dining,synthetic_training
+Dominos Pizza Payment,Food & Dining,synthetic_training
+Chipotle Mexican Grill Purchase,Food & Dining,synthetic_training
+Subway Sandwich Store,Food & Dining,synthetic_training
+Blue Bottle Cafe Receipt,Food & Dining,synthetic_training
+Sweetgreen Salad Monthly,Food & Dining,synthetic_training
+Taco Bell #1042,Food & Dining,synthetic_training
+Dunkin Donuts Card Transaction,Food & Dining,synthetic_training
+Shake Shack Checkout,Food & Dining,synthetic_training
+Panera Bread,Food & Dining,synthetic_training
+Local Cafe Online,Food & Dining,synthetic_training
+Starbucks Coffee Payment,Food & Dining,synthetic_training
+McDonalds Restaurant Purchase,Food & Dining,synthetic_training
+Dominos Pizza Store,Food & Dining,synthetic_training
+Chipotle Mexican Grill Receipt,Food & Dining,synthetic_training
+Subway Sandwich Monthly,Food & Dining,synthetic_training
+Blue Bottle Cafe #1042,Food & Dining,synthetic_training
+Sweetgreen Salad Card Transaction,Food & Dining,synthetic_training
+Taco Bell Checkout,Food & Dining,synthetic_training
+Dunkin Donuts,Food & Dining,synthetic_training
+Shake Shack Online,Food & Dining,synthetic_training
+Panera Bread Payment,Food & Dining,synthetic_training
+Local Cafe Purchase,Food & Dining,synthetic_training
+Starbucks Coffee Store,Food & Dining,synthetic_training
+McDonalds Restaurant Receipt,Food & Dining,synthetic_training
+Dominos Pizza Monthly,Food & Dining,synthetic_training
+Chipotle Mexican Grill #1042,Food & Dining,synthetic_training
+Subway Sandwich Card Transaction,Food & Dining,synthetic_training
+Blue Bottle Cafe Checkout,Food & Dining,synthetic_training
+Sweetgreen Salad,Food & Dining,synthetic_training
+Taco Bell Online,Food & Dining,synthetic_training
+Dunkin Donuts Payment,Food & Dining,synthetic_training
+Shake Shack Purchase,Food & Dining,synthetic_training
+Panera Bread Store,Food & Dining,synthetic_training
+Local Cafe Receipt,Food & Dining,synthetic_training
+Starbucks Coffee Monthly,Food & Dining,synthetic_training
+McDonalds Restaurant #1042,Food & Dining,synthetic_training
+Dominos Pizza Card Transaction,Food & Dining,synthetic_training
+Chipotle Mexican Grill Checkout,Food & Dining,synthetic_training
+Shell Fuel,Fuel,synthetic_training
+BP Gas Station Online,Fuel,synthetic_training
+Chevron Fuel Payment,Fuel,synthetic_training
+Exxon Mobil Gas Purchase,Fuel,synthetic_training
+Costco Gasoline Store,Fuel,synthetic_training
+Circle K Fuel Receipt,Fuel,synthetic_training
+Sunoco Station Monthly,Fuel,synthetic_training
+76 Gas #1042,Fuel,synthetic_training
+Valero Fuel Card Transaction,Fuel,synthetic_training
+Mobil Gas Station Checkout,Fuel,synthetic_training
+Arco Fuel,Fuel,synthetic_training
+QuickTrip Gas Online,Fuel,synthetic_training
+Shell Fuel Payment,Fuel,synthetic_training
+BP Gas Station Purchase,Fuel,synthetic_training
+Chevron Fuel Store,Fuel,synthetic_training
+Exxon Mobil Gas Receipt,Fuel,synthetic_training
+Costco Gasoline Monthly,Fuel,synthetic_training
+Circle K Fuel #1042,Fuel,synthetic_training
+Sunoco Station Card Transaction,Fuel,synthetic_training
+76 Gas Checkout,Fuel,synthetic_training
+Valero Fuel,Fuel,synthetic_training
+Mobil Gas Station Online,Fuel,synthetic_training
+Arco Fuel Payment,Fuel,synthetic_training
+QuickTrip Gas Purchase,Fuel,synthetic_training
+Shell Fuel Store,Fuel,synthetic_training
+BP Gas Station Receipt,Fuel,synthetic_training
+Chevron Fuel Monthly,Fuel,synthetic_training
+Exxon Mobil Gas #1042,Fuel,synthetic_training
+Costco Gasoline Card Transaction,Fuel,synthetic_training
+Circle K Fuel Checkout,Fuel,synthetic_training
+Sunoco Station,Fuel,synthetic_training
+76 Gas Online,Fuel,synthetic_training
+Valero Fuel Payment,Fuel,synthetic_training
+Mobil Gas Station Purchase,Fuel,synthetic_training
+Arco Fuel Store,Fuel,synthetic_training
+QuickTrip Gas Receipt,Fuel,synthetic_training
+Shell Fuel Monthly,Fuel,synthetic_training
+BP Gas Station #1042,Fuel,synthetic_training
+Chevron Fuel Card Transaction,Fuel,synthetic_training
+Exxon Mobil Gas Checkout,Fuel,synthetic_training
+Whole Foods Market,Groceries,synthetic_training
+Trader Joes Grocery Online,Groceries,synthetic_training
+Walmart Grocery Payment,Groceries,synthetic_training
+Kroger Market Purchase,Groceries,synthetic_training
+Aldi Groceries Store,Groceries,synthetic_training
+Safeway Market Receipt,Groceries,synthetic_training
+Costco Wholesale Grocery Monthly,Groceries,synthetic_training
+Target Grocery #1042,Groceries,synthetic_training
+Publix Supermarket Card Transaction,Groceries,synthetic_training
+H Mart Groceries Checkout,Groceries,synthetic_training
+Sprouts Farmers Market,Groceries,synthetic_training
+Local Grocery Store Online,Groceries,synthetic_training
+Whole Foods Market Payment,Groceries,synthetic_training
+Trader Joes Grocery Purchase,Groceries,synthetic_training
+Walmart Grocery Store,Groceries,synthetic_training
+Kroger Market Receipt,Groceries,synthetic_training
+Aldi Groceries Monthly,Groceries,synthetic_training
+Safeway Market #1042,Groceries,synthetic_training
+Costco Wholesale Grocery Card Transaction,Groceries,synthetic_training
+Target Grocery Checkout,Groceries,synthetic_training
+Publix Supermarket,Groceries,synthetic_training
+H Mart Groceries Online,Groceries,synthetic_training
+Sprouts Farmers Market Payment,Groceries,synthetic_training
+Local Grocery Store Purchase,Groceries,synthetic_training
+Whole Foods Market Store,Groceries,synthetic_training
+Trader Joes Grocery Receipt,Groceries,synthetic_training
+Walmart Grocery Monthly,Groceries,synthetic_training
+Kroger Market #1042,Groceries,synthetic_training
+Aldi Groceries Card Transaction,Groceries,synthetic_training
+Safeway Market Checkout,Groceries,synthetic_training
+Costco Wholesale Grocery,Groceries,synthetic_training
+Target Grocery Online,Groceries,synthetic_training
+Publix Supermarket Payment,Groceries,synthetic_training
+H Mart Groceries Purchase,Groceries,synthetic_training
+Sprouts Farmers Market Store,Groceries,synthetic_training
+Local Grocery Store Receipt,Groceries,synthetic_training
+Whole Foods Market Monthly,Groceries,synthetic_training
+Trader Joes Grocery #1042,Groceries,synthetic_training
+Walmart Grocery Card Transaction,Groceries,synthetic_training
+Kroger Market Checkout,Groceries,synthetic_training
+Amazon Marketplace,Shopping,synthetic_training
+Target Online Order Online,Shopping,synthetic_training
+Etsy Marketplace Payment,Shopping,synthetic_training
+Best Buy Electronics Purchase,Shopping,synthetic_training
+Ikea Home Goods Store,Shopping,synthetic_training
+Nike Store Receipt,Shopping,synthetic_training
+Uniqlo Clothing Monthly,Shopping,synthetic_training
+Apple Store Purchase #1042,Shopping,synthetic_training
+Myntra Fashion Card Transaction,Shopping,synthetic_training
+Flipkart Online Checkout,Shopping,synthetic_training
+Home Depot Supplies,Shopping,synthetic_training
+Bookstore Purchase Online,Shopping,synthetic_training
+Amazon Marketplace Payment,Shopping,synthetic_training
+Target Online Order Purchase,Shopping,synthetic_training
+Etsy Marketplace Store,Shopping,synthetic_training
+Best Buy Electronics Receipt,Shopping,synthetic_training
+Ikea Home Goods Monthly,Shopping,synthetic_training
+Nike Store #1042,Shopping,synthetic_training
+Uniqlo Clothing Card Transaction,Shopping,synthetic_training
+Apple Store Purchase Checkout,Shopping,synthetic_training
+Myntra Fashion,Shopping,synthetic_training
+Flipkart Online Online,Shopping,synthetic_training
+Home Depot Supplies Payment,Shopping,synthetic_training
+Bookstore Purchase Purchase,Shopping,synthetic_training
+Amazon Marketplace Store,Shopping,synthetic_training
+Target Online Order Receipt,Shopping,synthetic_training
+Etsy Marketplace Monthly,Shopping,synthetic_training
+Best Buy Electronics #1042,Shopping,synthetic_training
+Ikea Home Goods Card Transaction,Shopping,synthetic_training
+Nike Store Checkout,Shopping,synthetic_training
+Uniqlo Clothing,Shopping,synthetic_training
+Apple Store Purchase Online,Shopping,synthetic_training
+Myntra Fashion Payment,Shopping,synthetic_training
+Flipkart Online Purchase,Shopping,synthetic_training
+Home Depot Supplies Store,Shopping,synthetic_training
+Bookstore Purchase Receipt,Shopping,synthetic_training
+Amazon Marketplace Monthly,Shopping,synthetic_training
+Target Online Order #1042,Shopping,synthetic_training
+Etsy Marketplace Card Transaction,Shopping,synthetic_training
+Best Buy Electronics Checkout,Shopping,synthetic_training
+Uber Trip,Transport,synthetic_training
+Lyft Ride Online,Transport,synthetic_training
+Metro Transit Pass Payment,Transport,synthetic_training
+Amtrak Rail Ticket Purchase,Transport,synthetic_training
+City Bus Fare Store,Transport,synthetic_training
+Airline Flight Ticket Receipt,Transport,synthetic_training
+Parking Garage Fee Monthly,Transport,synthetic_training
+Toll Road Charge #1042,Transport,synthetic_training
+Bike Share Ride Card Transaction,Transport,synthetic_training
+Taxi Cab Ride Checkout,Transport,synthetic_training
+Train Ticket,Transport,synthetic_training
+Transit Card Reload Online,Transport,synthetic_training
+Uber Trip Payment,Transport,synthetic_training
+Lyft Ride Purchase,Transport,synthetic_training
+Metro Transit Pass Store,Transport,synthetic_training
+Amtrak Rail Ticket Receipt,Transport,synthetic_training
+City Bus Fare Monthly,Transport,synthetic_training
+Airline Flight Ticket #1042,Transport,synthetic_training
+Parking Garage Fee Card Transaction,Transport,synthetic_training
+Toll Road Charge Checkout,Transport,synthetic_training
+Bike Share Ride,Transport,synthetic_training
+Taxi Cab Ride Online,Transport,synthetic_training
+Train Ticket Payment,Transport,synthetic_training
+Transit Card Reload Purchase,Transport,synthetic_training
+Uber Trip Store,Transport,synthetic_training
+Lyft Ride Receipt,Transport,synthetic_training
+Metro Transit Pass Monthly,Transport,synthetic_training
+Amtrak Rail Ticket #1042,Transport,synthetic_training
+City Bus Fare Card Transaction,Transport,synthetic_training
+Airline Flight Ticket Checkout,Transport,synthetic_training
+Parking Garage Fee,Transport,synthetic_training
+Toll Road Charge Online,Transport,synthetic_training
+Bike Share Ride Payment,Transport,synthetic_training
+Taxi Cab Ride Purchase,Transport,synthetic_training
+Train Ticket Store,Transport,synthetic_training
+Transit Card Reload Receipt,Transport,synthetic_training
+Uber Trip Monthly,Transport,synthetic_training
+Lyft Ride #1042,Transport,synthetic_training
+Metro Transit Pass Card Transaction,Transport,synthetic_training
+Amtrak Rail Ticket Checkout,Transport,synthetic_training
+Electric Utility Bill,Utilities,synthetic_training
+Water Utility Payment Online,Utilities,synthetic_training
+Internet Service Bill Payment,Utilities,synthetic_training
+Mobile Phone Bill Purchase,Utilities,synthetic_training
+Gas Utility Payment Store,Utilities,synthetic_training
+Electricity Provider Receipt,Utilities,synthetic_training
+Broadband Monthly Bill Monthly,Utilities,synthetic_training
+Waste Collection Bill #1042,Utilities,synthetic_training
+Phone Service Plan Card Transaction,Utilities,synthetic_training
+Power Company Payment Checkout,Utilities,synthetic_training
+Cloud Storage Subscription,Utilities,synthetic_training
+Streaming Service Monthly Online,Utilities,synthetic_training
+Electric Utility Bill Payment,Utilities,synthetic_training
+Water Utility Payment Purchase,Utilities,synthetic_training
+Internet Service Bill Store,Utilities,synthetic_training
+Mobile Phone Bill Receipt,Utilities,synthetic_training
+Gas Utility Payment Monthly,Utilities,synthetic_training
+Electricity Provider #1042,Utilities,synthetic_training
+Broadband Monthly Bill Card Transaction,Utilities,synthetic_training
+Waste Collection Bill Checkout,Utilities,synthetic_training
+Phone Service Plan,Utilities,synthetic_training
+Power Company Payment Online,Utilities,synthetic_training
+Cloud Storage Subscription Payment,Utilities,synthetic_training
+Streaming Service Monthly Purchase,Utilities,synthetic_training
+Electric Utility Bill Store,Utilities,synthetic_training
+Water Utility Payment Receipt,Utilities,synthetic_training
+Internet Service Bill Monthly,Utilities,synthetic_training
+Mobile Phone Bill #1042,Utilities,synthetic_training
+Gas Utility Payment Card Transaction,Utilities,synthetic_training
+Electricity Provider Checkout,Utilities,synthetic_training
+Broadband Monthly Bill,Utilities,synthetic_training
+Waste Collection Bill Online,Utilities,synthetic_training
+Phone Service Plan Payment,Utilities,synthetic_training
+Power Company Payment Purchase,Utilities,synthetic_training
+Cloud Storage Subscription Store,Utilities,synthetic_training
+Streaming Service Monthly Receipt,Utilities,synthetic_training
+Electric Utility Bill Monthly,Utilities,synthetic_training
+Water Utility Payment #1042,Utilities,synthetic_training
+Internet Service Bill Card Transaction,Utilities,synthetic_training
+Mobile Phone Bill Checkout,Utilities,synthetic_training
