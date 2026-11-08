@@ -27,13 +27,10 @@ services:
         value: 3.11.11
       - key: PAYPAL_CLIENT_ID
         sync: false
-        value: ""
       - key: PAYPAL_CLIENT_SECRET
         sync: false
-        value: ""
       - key: PAYPAL_WEBHOOK_ID
         sync: false
-        value: ""
       - key: FRONTEND_ORIGIN
         value: https://inhouse-tx-mkmu.onrender.com
       - key: AI_PROVIDER
