@@ -122,8 +122,8 @@ The root is intentionally limited to project metadata, configuration templates a
 ## Run locally
 
 ### Prerequisites
-- Python 3.10 or newer
-- PayPal Developer Sandbox credentials only if testing checkout
+- Python 3.10 or newer.
+- PayPal Developer Sandbox credentials only if testing checkout.
 
 ### 1. Clone and install
 
