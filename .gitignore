@@ -1,6 +1,18 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
+*.bin
+*.db
+*.sqlite*
+.env
+.venv/
+node_modules/
+frontend/dist/
+frontend/.tsbuildinfo
+*.py[codz]
+reports/screenshots/.pytest_tmp/
+reports/screenshots/.pycache/
+work/chromedriver-*/
 *$py.class
 
 # C extensions

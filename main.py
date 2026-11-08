@@ -1,17 +1,11 @@
+"""Train the synthetic baseline and print a sample prediction."""
 from model.train import train_model
-from model.inference import predict_single
-from utils.config import load_taxonomy
+from api.categorization import Categorizer
 
 if __name__ == "__main__":
-    print("Loading taxonomy...")
-    taxonomy = load_taxonomy()
-
-    print("Training model...")
-    model, tfidf = train_model()
-
-    print("Sample prediction:")
-    text = "Starbucks Coffee"
-    category, confidence = predict_single(text, model, tfidf)
-    print("Input:", text)
-    print("Predicted Category:", category)
-    print("Confidence:", confidence)
+    _, _, metrics = train_model()
+    print("Selected model:", metrics["selected_model"])
+    print("Synthetic holdout macro F1:", round(metrics["models"][metrics["selected_model"]]["macro_f1"], 3))
+    result = Categorizer().predict("Starbucks Coffee")
+    print("Sample prediction:", result["category"], "confidence:", round(result["confidence"], 3))
+    print("Explanation:", result["explanation"]["summary"])

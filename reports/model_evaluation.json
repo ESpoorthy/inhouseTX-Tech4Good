@@ -1,0 +1,126 @@
+{
+  "dataset": "data/synthetic_training.csv",
+  "source_note": "Synthetic merchant-description patterns; not customer data.",
+  "rows": 240,
+  "train_rows": 181,
+  "test_rows": 59,
+  "split": "GroupShuffleSplit by vendor prefix; random_state=42",
+  "models": {
+    "multinomial_nb": {
+      "accuracy": 0.7457627118644068,
+      "macro_f1": 0.6955869948623571,
+      "classification_report": {
+        "Food & Dining": {
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1-score": 0.4,
+          "support": 12.0
+        },
+        "Fuel": {
+          "precision": 1.0,
+          "recall": 0.7692307692307693,
+          "f1-score": 0.8695652173913043,
+          "support": 13.0
+        },
+        "Groceries": {
+          "precision": 0.7692307692307693,
+          "recall": 1.0,
+          "f1-score": 0.8695652173913043,
+          "support": 10.0
+        },
+        "Shopping": {
+          "precision": 0.4,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.5,
+          "support": 6.0
+        },
+        "Transport": {
+          "precision": 0.4,
+          "recall": 1.0,
+          "f1-score": 0.5714285714285714,
+          "support": 4.0
+        },
+        "Utilities": {
+          "precision": 1.0,
+          "recall": 0.9285714285714286,
+          "f1-score": 0.9629629629629629,
+          "support": 14.0
+        },
+        "accuracy": 0.7457627118644068,
+        "macro avg": {
+          "precision": 0.7615384615384615,
+          "recall": 0.769078144078144,
+          "f1-score": 0.6955869948623571,
+          "support": 59.0
+        },
+        "weighted avg": {
+          "precision": 0.8591916558018253,
+          "recall": 0.7457627118644068,
+          "f1-score": 0.7384270469016232,
+          "support": 59.0
+        }
+      }
+    },
+    "logistic_regression": {
+      "accuracy": 0.7796610169491526,
+      "macro_f1": 0.740696823305519,
+      "classification_report": {
+        "Food & Dining": {
+          "precision": 0.6666666666666666,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.4444444444444444,
+          "support": 12.0
+        },
+        "Fuel": {
+          "precision": 1.0,
+          "recall": 0.7692307692307693,
+          "f1-score": 0.8695652173913043,
+          "support": 13.0
+        },
+        "Groceries": {
+          "precision": 0.7692307692307693,
+          "recall": 1.0,
+          "f1-score": 0.8695652173913043,
+          "support": 10.0
+        },
+        "Shopping": {
+          "precision": 0.4444444444444444,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.5333333333333333,
+          "support": 6.0
+        },
+        "Transport": {
+          "precision": 0.5714285714285714,
+          "recall": 1.0,
+          "f1-score": 0.7272727272727273,
+          "support": 4.0
+        },
+        "Utilities": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 14.0
+        },
+        "accuracy": 0.7796610169491526,
+        "macro avg": {
+          "precision": 0.7419617419617418,
+          "recall": 0.7948717948717948,
+          "f1-score": 0.740696823305519,
+          "support": 59.0
+        },
+        "weighted avg": {
+          "precision": 0.8075370956726889,
+          "recall": 0.7796610169491526,
+          "f1-score": 0.7702105803800718,
+          "support": 59.0
+        }
+      }
+    }
+  },
+  "selected_model": "logistic_regression",
+  "selection_metric": "holdout macro F1",
+  "feedback_rows": 0,
+  "feedback_excluded_for_holdout_isolation": 0,
+  "model_id": "inhouse-tx-logistic_regression-74c3550a3a21",
+  "artifact": "model/model.candidate.bin"
+}
