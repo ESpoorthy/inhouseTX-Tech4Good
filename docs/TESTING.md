@@ -25,15 +25,17 @@ The pytest suite covers local authentication/ownership/CSRF/rate-limit behavior,
 
 ## Latest recorded results
 
-The implementation run recorded 25 passing pytest cases, successful Python compileall, successful JavaScript syntax validation, and a clean `git diff --check`. These checks used the environment’s already installed dependencies. Dependency installation from PyPI/npm was not verified because package-host DNS/network access was unavailable. Re-run after any code edits and before publishing.
+The UI redesign report dated 2026-11-08 records **26 passing pytest cases**, successful Python `compileall`, successful JavaScript syntax validation, and a clean `git diff --check`. The report also documents Chrome inspection of the landing page, dashboard, transactions, analytics, anomaly centre, AI insights, checkout and settings using synthetic fixtures. Tablet/mobile testing and direct pixel-level Figma comparison remain incomplete.
 
-The synthetic grouped holdout classifier experiment contained 240 synthetic rows and 59 holdout rows. The first recorded run reported accuracy 0.7797 and macro F1 0.7407 for the selected logistic regression candidate. This is only a synthetic pattern benchmark. It is not a real transaction dataset, broad model validation, or a guarantee of production performance.
+These are reported results from the documented local QA run; re-run the commands above on the exact checkout before relying on them for a release. Dependency installation from package registries was not verified in the constrained implementation environment.
+
+The synthetic grouped holdout classifier experiment contained 240 synthetic rows and 59 holdout rows. The recorded run reported accuracy 0.7797 and macro F1 0.7407 for the selected Logistic Regression candidate. This is only a synthetic pattern benchmark. It is not a real transaction dataset, broad model validation, or a guarantee of production performance.
 
 ## Not verified
 
 - A real PayPal Sandbox checkout/capture/webhook round trip.
 - OpenAI provider response behavior using a live key.
 - Cross-process persistence/rate limiting under a multi-worker host.
-- Browser automation or full responsive/device accessibility audit.
+- Complete tablet/mobile browser testing and frame-by-frame Figma comparison.
 - Clean dependency installation on a network-enabled environment.
 - Production deployment.
